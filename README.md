@@ -56,3 +56,16 @@ SHA-256 bit algorithm) when it it auto reconnect the packet will be capture and 
 aircrack-ng -w wordlist.txt handshake.cap
 ```
 This process will help you to crack the password of the file but all you need is the gigantic wordlist, which should contain lakhs of similar passwaord and Hence it will able to crack the password.
+## Author
+
+👤 **Anand Katariya**
+
+* Github: [@AnandKatariya](https://github.com/AnandKatariya)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/AnandKatariya/WiFi-Hacking/issues).
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
