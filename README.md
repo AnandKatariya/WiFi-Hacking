@@ -41,8 +41,11 @@ airodump-ng wlan0mon -c <ch> --bssid <target_mac> -w target_handshake
 ```
 -w will save save you target handshake whenever it will capture. It will save in .cap name file. Now after this we want to disconnect someone who is connected to target's device. So we need to perform the aireplay attack so we will able to disconnect the any device which is connect to target's device  
 <br>
+
+
 ## Open new terminal
 <br>
+
 
 
 ## Disconnecting the device
