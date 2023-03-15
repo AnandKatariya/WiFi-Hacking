@@ -43,6 +43,8 @@ airodump-ng wlan0mon -c <ch> --bssid <target_mac> -w target_handshake
 <br>
 ## Open new terminal
 <br>
+
+
 ## Disconnecting the device
 
 ```sh
