@@ -1,2 +1,6 @@
-# WiFi-Hacking
-All you need is INTERNET, so use this script and have fun with it. This script is only for linux os. THIS IS ONLY FOR EDUCATION PURPOSE 
+<h1 align="center">Welcome to WiFi-Hacking 👋</h1>
+<p>
+  <img src="https://img.shields.io/badge/version-0.1-blue.svg?cacheSeconds=2592000" />
+</p>
+
+> 
