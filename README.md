@@ -6,3 +6,8 @@
 > 
 ### 🏠 [Homepage](https://github.com/AnandKatariya/WiFi-Hacking)
 ## Check
+```sh
+iwconfig
+```
+Check weather the mode is on moniter mode or managed mode.
+## Clear
