@@ -40,11 +40,14 @@ A wireless penetration test will examine your network using a methodology simila
 airodump-ng wlan0mon -c <ch> --bssid <target_mac> -w target_handshake
 ```
 -w will save save you target handshake whenever it will capture. It will save in .cap name file. Now after this we want to disconnect someone who is connected to target's device. So we need to perform the aireplay attack so we will able to disconnect the any device which is connect to target's device  
+<br>
 ## Open new terminal
+<br>
 ## Disconnecting the device
 
 ```sh
 aireplay-ng --deauth 0 -a <target_mac> wlan0mon
 ```
 After doing this any one of the device will be disconnect and will able to try auto reconnect to the target (when this process is been happeing the waay is when any device is disconnect it will try to auto reconnect it and when it will try the password will transfer in terms of packet and the packet will be
-SHA-256 bit algorithm) 
+SHA-256 bit algorithm) when it it auto reconnect the packet will be capture and the 4-way handshake will be performed.
+
