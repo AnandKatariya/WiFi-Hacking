@@ -50,4 +50,9 @@ aireplay-ng --deauth 0 -a <target_mac> wlan0mon
 ```
 After doing this any one of the device will be disconnect and will able to try auto reconnect to the target (when this process is been happeing the waay is when any device is disconnect it will try to auto reconnect it and when it will try the password will transfer in terms of packet and the packet will be
 SHA-256 bit algorithm) when it it auto reconnect the packet will be capture and the 4-way handshake will be performed.
+## Cracking the password
 
+```sh
+aircrack-ng -w wordlist.txt handshake.cap
+```
+This process will help you to crack the password of the file but all you need is the gigantic wordlist, which should contain lakhs of similar passwaord and Hence it will able to crack the password.
