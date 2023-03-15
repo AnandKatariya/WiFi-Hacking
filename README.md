@@ -10,4 +10,9 @@
 iwconfig
 ```
 Check weather the mode is on moniter mode or managed mode.
-## Clear
+## Clear all stuff
+
+```sh
+airmon-ng check kill
+```
+check and kill off processes that might interfere with the aircrack-ng suite.
