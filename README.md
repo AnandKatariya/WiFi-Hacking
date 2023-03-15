@@ -34,3 +34,9 @@ After doing this you will able to see a interface that will show you wifi networ
 airodump-ng wlan0mon -c <ch> --bssid <target_mac>
 ```
 A wireless penetration test will examine your network using a methodology similar to the standard wired penetration test. However, they will focus on the wireless as the gateway to exploit your vulnerabilities. Thus this will select your target.
+## Save handshake
+
+```sh
+airodump-ng wlan0mon -c <ch> --bssid <target_mac> -w target_handshake
+```
+-w will save save you target handshake whenever it will capture. It will save in .cap name file. Now after this we want to disconnect someone who is connected to target's device. So we need to perform the aireplay attack so we will able to disconnect the any device which is connect to target's device  
