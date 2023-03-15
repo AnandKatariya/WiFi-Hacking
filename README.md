@@ -28,3 +28,9 @@ Airmon-ng is used to read all the packets of data even if they are not sent to u
 airodump-ng wlan0mon
 ```
 After doing this you will able to see a interface that will show you wifi network around you which are available and with this you will able to see many other columns such as CH (channel), bssid and many more.
+## Select the target
+
+```sh
+airodump-ng wlan0mon -c <ch> --bssid <target_mac>
+```
+A wireless penetration test will examine your network using a methodology similar to the standard wired penetration test. However, they will focus on the wireless as the gateway to exploit your vulnerabilities. Thus this will select your target.
